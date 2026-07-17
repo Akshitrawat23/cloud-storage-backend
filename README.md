@@ -36,3 +36,26 @@ POST /login
 - Docker
 - EC2 Deployment
 - GitHub Actions
+
+
+
+
+## 🏗️ System Architecture
+
+
+                 Cloud File Storage System
+
+                 Client (Postman / Web App)
+                          │
+                          ▼
+                 Flask REST API (Backend)
+                          │
+          ┌───────────────┴───────────────┐
+          │                          │                          
+          ↓                          ↓
+    MongoDB Database                 JWT Authentication
+          │
+          └── User Information
+ 
+
+  
