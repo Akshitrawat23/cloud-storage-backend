@@ -25,7 +25,9 @@ A secure cloud-based file storage backend built with Flask, MongoDB, JWT Authent
 POST /register
 POST /login
 
-## Project Structure
+## Project flowchat
+
+![screenshot](diagram.png)
 
 ## Future Enhancements
 
